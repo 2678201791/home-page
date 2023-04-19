@@ -1,0 +1,52 @@
+{
+  "version": "2",
+  "name": "sample",
+  "description": "Powered by log-Z",
+  "theme": {
+    "subscribe": {
+      "nav": "config:nav-theme-v2-preset.json"
+    },
+    "active": "nav.default"
+  },
+  "search": {
+    "placeholder": "👴 来点什么123？",
+    "engine": {
+      "active": ["baidu", "google", "bing", "wikipedia"]
+    }
+  },
+  "favorites": {
+    "iconPrefix": "image:wicon:",
+    "groups": [{
+      "name": "常用",
+      "websites": [{
+        "title": "哔哩哔哩",
+        "subtitle": "bilibili.com",
+        "icon": "bilibili.svg",
+        "url": "https://www.bilibili.com/"
+      }, {
+        "title": "YouTube",
+        "subtitle": "youtube.com",
+        "icon": "youtube.svg",
+        "url": "https://www.youtube.com/"
+      }]
+    }, {
+      "name": "学术",
+      "websites": [{
+        "title": "维基百科",
+        "subtitle": "zh.wikipedia.org",
+        "icon": "wikipedia.svg",
+        "url": "https://zh.wikipedia.org/"
+      }, {
+        "title": "WolframAlpha",
+        "subtitle": "wolframalpha.com",
+        "icon": "wolframalpha.svg",
+        "url": "https://www.wolframalpha.com/"
+      }, {
+        "title": "Z-Library",
+        "subtitle": "zh.z-lib.org",
+        "icon": "zlibrary_3.svg",
+        "url": "https://zh.z-lib.org/"
+      }]
+    }]
+  }
+}

@@ -19,7 +19,7 @@ function search_matedata() {
     type: Object,
     properties: {
       engine: search_engin_matedata(),
-      placeholder: { type: String, default: '您来点什么？' },
+      placeholder: { type: String, default: '您来点sdaasddas什么？' },
     }
   }
 }

@@ -5,7 +5,7 @@ const SEARCH_ENGINE_MATEDATA = {
       element: String,
       default: [ 'baidu', 'google', 'bing', 'wikipedia' ],
     },
-    placeholder: { type: String, default: '您来点什么？' },
+    placeholder: { type: String, default: '您213来点什么？' },
   }
 };
 const FAVORITES_WEBSITES_MATEDATA = {
